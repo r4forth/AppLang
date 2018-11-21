@@ -50,14 +50,14 @@ return "undefined";
 if(l[0] in f) {
 var one = l[0];
 l.shift();
-params = l;
+p = l;
 return read(f[one]);
 }
 
 if(l[0] in classes) {
 var one = l[0];
 l.shift();
-p = l;
+params = l;
 return classes[one]();
 }
 
