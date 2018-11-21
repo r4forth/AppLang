@@ -1,1 +1,1 @@
-Class JS return Function('return '+params.join(' '))();Function read JS readFile(p.join(' '));Function write JS "var name=p.shift();writeFile(name,p.join(' '))";
+Class JS return Function('return '+params.join(' '))();Function read JS readFile(p.join(' '));Function write JS "function(){var name=p.shift();writeFile(name,p.join(' '));return undefined;}()";
