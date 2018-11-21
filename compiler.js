@@ -9,8 +9,7 @@ parens = parens%2;
 }else if(txt[i]=="\`") {
 i++;
 s[s.length-1] += txt[i];
-}else if(parens == 0) {
-if(txt[i] == split) {
+}else if(txt[i] == split && parens==0) {
 s.push("");
 } else {
 s[s.length-1] += txt[i];
