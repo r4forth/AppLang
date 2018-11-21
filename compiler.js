@@ -9,12 +9,12 @@ parens++;
 parens--;
 }else if(txt[i]=="\`") {
 i++;
-s[s.length-1] += text[i];
+s[s.length-1] += txt[i];
 }else if(parens == 0) {
 if(txt[i] == split) {
 s.push("");
 } else {
-s[s.length-1] += text[i];
+s[s.length-1] += txt[i];
 }
 }
 
