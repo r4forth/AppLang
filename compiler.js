@@ -22,6 +22,7 @@ return s;
 
 var classes = new Object();
 var params = new Array();
+var p = new Array();
 var f = new Object();
 function read(code) {
 var l = codeSplit(code," ");
@@ -56,7 +57,7 @@ return read(f[one]);
 if(l[0] in classes) {
 var one = l[0];
 l.shift();
-params = l;
+p = l;
 return classes[one]();
 }
 
