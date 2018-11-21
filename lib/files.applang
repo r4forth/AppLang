@@ -1,1 +1,1 @@
-Class JS return Function('return '+params.join(' '))();Function read JS readFile(p.join(' '));
+Class JS return Function('return '+params.join(' '))();Function read JS return readFile(p.join(' '));
