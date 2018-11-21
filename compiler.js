@@ -19,7 +19,7 @@ s[s.length-1] += txt[i];
 }
 
 }
-
+return s;
 }
 
 var classes = new Object();
