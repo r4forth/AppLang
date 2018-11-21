@@ -3,9 +3,9 @@ var parens = 0;
 var s = new Array();
 s.push("");
 for(var i=0; i<txt.length; i++) {
-if(txt[i] == "\(")
+if(txt[i] == "\(") {
 parens++;
-}else if(txt[i] == "\)")
+}else if(txt[i] == "\)") {
 parens--;
 }else if(txt[i]=="\`") {
 i++;
