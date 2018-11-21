@@ -5,3 +5,10 @@ var fText = txtFile.ReadAll();
 txtFile.Close();
 return fText;
 }
+
+function writeFile(file,content) {
+var fso = new ActiveXObject("Scripting.FileSystemObject"),
+thefile=fso.CreateTextFile(file,true);
+thefile.WriteLine(content);
+thefile.Close();
+}
