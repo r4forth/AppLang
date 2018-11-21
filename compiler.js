@@ -3,7 +3,10 @@ var parens = 0;
 var s = new Array();
 s.push("");
 for(var i=0; i<txt.length; i++) {
-if(txt[i]=="\`") {
+if (txt[i]=='"') {
+parens++;
+parens = parens%2;
+}else if(txt[i]=="\`") {
 i++;
 s[s.length-1] += txt[i];
 }else if(parens == 0) {
