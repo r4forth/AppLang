@@ -14,7 +14,7 @@ s.push("");
 } else {
 s[s.length-1] += txt[i];
 }
-}
+
 
 }
 return s;
